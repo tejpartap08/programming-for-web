@@ -6,12 +6,15 @@
   <script>
     function changeText() {
      document.getElementById("message").innerHTML = "You clicked the button!";
-    }
+      function changeColour() {
+        document.body.style.background Color = "lightblue";
+      }
   </script>
 </head>
 <body>
   <h2>Click the button to see what happens!</h2>
   <p id="message">Hello World!</p>
   <button onclick="changeText()">Click me</button>
+  <button onclick="changeColour()">Click me</button>
 </body>
 </html>
