@@ -14,3 +14,20 @@ button{
   curser: pointer;
 
 }
+@media (max-width: 600px) {
+  body{
+    background color:lightgray;
+  }
+  button {
+    width: 100%;
+  }
+{
+@keyframes demo {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+button {
+  animation-name: example;
+  animation-duration: 4s;
+}
+
